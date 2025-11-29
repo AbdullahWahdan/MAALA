@@ -1,0 +1,21 @@
+{
+    "session_id": "4a0728a7-b3a7-4361-9a65-b79055de0f9d",
+    "name": "New Session",
+    "created_at": "2025-11-29T10:13:21.653504",
+    "updated_at": "2025-11-29T10:13:21.653504",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf about?"
+        },
+        {
+            "role": "assistant",
+            "content": "This PDF appears to be a report or a document summarizing a summer internship or training program. It outlines the various trainings, courses, and projects completed by the author, Abdullah Mohamed Ahmed Ali, with a focus on cloud computing, DevOps, and multi-cloud engineering.",
+            "sources": []
+        }
+    ]
+}

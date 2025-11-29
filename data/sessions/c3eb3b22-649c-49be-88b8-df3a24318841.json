@@ -1,0 +1,48 @@
+{
+    "session_id": "c3eb3b22-649c-49be-88b8-df3a24318841",
+    "name": "who is messi",
+    "created_at": "2025-11-29T13:26:08.095562",
+    "updated_at": "2025-11-29T13:29:41.182698",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf about?"
+        },
+        {
+            "role": "assistant",
+            "content": "**[PDF Agent]** This appears to be a list of tools and technologies, likely a research or development project, with brief descriptions and references. It mentions tools for PDF text extraction (PyPDF2), vector search databases (FAISS or AstraDB), and a multi-agent workflow framework (LangChain).",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "who is messi"
+        },
+        {
+            "role": "assistant",
+            "content": "**[Search Agent]** Lionel Messi is a professional footballer who plays as a forward for Paris Saint-Germain and the Argentina national team. He is widely regarded as one of the greatest footballers of all time, known for his exceptional dribbling skills, speed, and goal-scoring ability. Messi has won numerous awards and accolades throughout his career, including six Ballon d'Or awards, ten La Liga titles, and four UEFA Champions League titles.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf about"
+        },
+        {
+            "role": "assistant",
+            "content": "**[Search Agent]** Unfortunately, I don't have any information about the PDF you're referring to. Could you please provide more context or information about the PDF, such as its title or content?",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is summer training"
+        },
+        {
+            "role": "assistant",
+            "content": "**[Search Agent]** Summer training, also known as summer internship or summer program, is a period of training or work experience that takes place during the summer break, typically for students or young professionals. It is designed to provide hands-on experience, skills development, and networking opportunities in a specific field or industry. Summer training can be offered by companies, organizations, or educational institutions and can last from a few weeks to several months. The goals of summer training vary, but common objectives include:\n\n- Gaining practical experience in a specific field\n- Developing skills and knowledge\n- Building a professional network\n- Enhancing employability\n- Exploring career options\n- Earning academic credits or stipends\n\nSummer training can be in various forms, such as internships, research projects, volunteer work, or workshops. It is an excellent way for individuals to gain valuable experience, build their confidence, and make informed decisions about their future careers.",
+            "sources": []
+        }
+    ]
+}

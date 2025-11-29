@@ -1,0 +1,48 @@
+{
+    "session_id": "c059e15c-9bef-4c5d-84cd-a3c5975a753c",
+    "name": "i am abdullah, rembebr it",
+    "created_at": "2025-11-29T10:14:57.623119",
+    "updated_at": "2025-11-29T10:18:43.319258",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is my name"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have any information about your name. You haven't shared it with me yet. If you'd like to tell me your name, I'd be happy to chat with you!",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "i am abdullah, rembebr it"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello Abdullah, I've remembered your name. How can I assist you today?",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf about"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm unable to determine what the PDF is about, as there is no information provided.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is the pdf about?"
+        },
+        {
+            "role": "assistant",
+            "content": "Unfortunately, the provided context does not contain enough information about the PDF. There is no clear indication of what the PDF is about.",
+            "sources": []
+        }
+    ]
+}

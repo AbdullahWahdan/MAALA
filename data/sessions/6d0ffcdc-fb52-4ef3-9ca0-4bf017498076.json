@@ -1,0 +1,48 @@
+{
+    "session_id": "6d0ffcdc-fb52-4ef3-9ca0-4bf017498076",
+    "name": "forget about this one",
+    "created_at": "2025-11-29T08:17:47.424007",
+    "updated_at": "2025-11-29T08:18:28.488653",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf about"
+        },
+        {
+            "role": "assistant",
+            "content": "This pdf appears to be a textbook or educational material about information security, specifically discussing types of software attacks and human errors that can compromise information security. It is likely from a chapter on software attacks and another on human error in a book called \"Principles of Information Security\" in its 7th edition.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "forget about this one"
+        },
+        {
+            "role": "assistant",
+            "content": "I'll forget about the context. What would you like to ask next?",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "foucus on this pdf"
+        },
+        {
+            "role": "assistant",
+            "content": "We're focusing on the pdf again. What's your next question about it?",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is the pdf about"
+        },
+        {
+            "role": "assistant",
+            "content": "The pdf discusses information security, specifically focusing on acts of human error or failure as a major threat, and also mentions software attacks such as phishing, pharming, and man-in-the-middle attacks.",
+            "sources": []
+        }
+    ]
+}

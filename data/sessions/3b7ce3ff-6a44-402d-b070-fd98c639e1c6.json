@@ -1,0 +1,102 @@
+{
+    "session_id": "3b7ce3ff-6a44-402d-b070-fd98c639e1c6",
+    "name": "/",
+    "created_at": "2025-11-29T10:23:13.920160",
+    "updated_at": "2025-11-29T10:33:43.698956",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf"
+        },
+        {
+            "role": "assistant",
+            "content": "Unfortunately, I don't have any information about a specific PDF, as none was provided in the given context.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "/"
+        },
+        {
+            "role": "assistant",
+            "content": "It appears to be a separator or a page break, as seen multiple times in the context.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "/"
+        },
+        {
+            "role": "assistant",
+            "content": "It seems to be a continuation of the separators present in the given context.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "/"
+        },
+        {
+            "role": "assistant",
+            "content": "It appears to be another separator, likely used for layout purposes.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is svm"
+        },
+        {
+            "role": "assistant",
+            "content": "SVM stands for Support Vector Machine, which is a type of supervised machine learning algorithm used for classification and regression tasks. It aims to find the best hyperplane that maximally separates the classes in the feature space.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is your source of info"
+        },
+        {
+            "role": "assistant",
+            "content": "The source of information is the context provided earlier, which consists of multiple instances of \"Support Vector Machines (SVM)\".",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is barca"
+        },
+        {
+            "role": "assistant",
+            "content": "There is no information about \"Barca\" in the provided context.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "forget about the conext"
+        },
+        {
+            "role": "assistant",
+            "content": "Barcelona is a city in Spain and also a well-known football club, commonly referred to as FC Barcelona or simply Barcelona.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "\"Tell me about the conclusion of the PDF"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have any information about a PDF or its conclusion, as our conversation started with a mysterious context that didn't provide a clear source or topic.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "\"Tell me about the conclusion of the PDF"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have any information about a PDF. The provided context only contains the word \"Separation\" repeated three times. I'm unable to answer your question as there is no PDF to draw conclusions from.",
+            "sources": []
+        }
+    ]
+}

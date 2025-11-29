@@ -1,0 +1,21 @@
+{
+    "session_id": "26773253-3c5a-4a74-9cc7-cc3bb978d15a",
+    "name": "New Session",
+    "created_at": "2025-11-29T10:34:12.787621",
+    "updated_at": "2025-11-29T10:34:12.787621",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "\"Tell me about the conclusion of the PDF"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have any information about a PDF. The provided context only contains the word \"Separation\" multiple times, but it doesn't mention a PDF or any context related to it.",
+            "sources": []
+        }
+    ]
+}

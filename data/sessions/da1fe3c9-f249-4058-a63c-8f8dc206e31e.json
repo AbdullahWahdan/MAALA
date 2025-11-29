@@ -1,0 +1,39 @@
+{
+    "session_id": "da1fe3c9-f249-4058-a63c-8f8dc206e31e",
+    "name": "what is it about?",
+    "created_at": "2025-11-29T10:19:13.783085",
+    "updated_at": "2025-11-29T10:21:29.834117",
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! I can answer questions about your PDFs or search the web. What would you like to know?"
+        },
+        {
+            "role": "user",
+            "content": "what is the pdf uploaded about?"
+        },
+        {
+            "role": "assistant",
+            "content": "Unfortunately, there is not enough information in the provided context to determine the topic of the pdf.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is it about?"
+        },
+        {
+            "role": "assistant",
+            "content": "Unfortunately, there is not enough information in the provided context to determine what \"Separation\" refers to.",
+            "sources": []
+        },
+        {
+            "role": "user",
+            "content": "what is this pdf"
+        },
+        {
+            "role": "assistant",
+            "content": "There is no PDF information provided in the given context.",
+            "sources": []
+        }
+    ]
+}
