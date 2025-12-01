@@ -11,9 +11,14 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from orchestrator.core import OrchestratorAgent
 from dashboard.session_manager import SessionManager
 from agents.video_agent import VideoAgent
+from agents.ocr_agent.core import OCRAgent
 
 # Load environment variables
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
+
+# Load from Streamlit secrets if available (for cloud deployment)
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 st.set_page_config(page_title="Unified AI Agent", page_icon="🤖", layout="wide")
 
@@ -51,7 +56,7 @@ else:
 # Sidebar for Session Management
 with st.sidebar:
     st.title("Project Options")
-    mode = st.radio("Select Agent", ["Search Agent", "PDF Agent", "Video Summarizer"], key="agent_mode")
+    mode = st.radio("Select Agent", ["Search Agent", "PDF Agent", "Video Summarizer", "OCR Agent"], key="agent_mode")
     st.divider()
 
     st.title("🗂️ Sessions")
@@ -130,6 +135,45 @@ if mode == "Video Summarizer":
         else:
             st.warning("Please enter a valid URL.")
             
+    # Stop execution here so we don't show the chat interface
+    st.stop()
+
+elif mode == "OCR Agent":
+    st.header("🖼️ OCR Agent")
+    st.markdown("Upload an image to extract text from it.")
+    
+    uploaded_file = st.file_uploader("Upload Image", type=["png", "jpg", "jpeg"])
+    
+    if uploaded_file:
+        st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+        
+        if st.button("Extract Text", type="primary"):
+            with st.spinner("Extracting text..."):
+                try:
+                    # Save to temp file
+                    with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(uploaded_file.name)[1]) as tmp_file:
+                        tmp_file.write(uploaded_file.getvalue())
+                        tmp_path = tmp_file.name
+                    
+                    try:
+                        ocr_agent = OCRAgent(groq_api_key=os.getenv("GROQ_API_KEY"))
+                        text = ocr_agent.extract_text(tmp_path)
+                        
+                        st.markdown("### 📝 Extracted Text")
+                        st.write(text)
+                        
+                        # Add to chat history so it's saved
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": f"**Extracted Text from {uploaded_file.name}:**\n\n{text}"
+                        })
+                        
+                    finally:
+                        os.remove(tmp_path)
+                        
+                except Exception as e:
+                    st.error(f"Error processing image: {e}")
+    
     # Stop execution here so we don't show the chat interface
     st.stop()
 
